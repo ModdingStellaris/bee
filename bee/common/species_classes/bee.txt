@@ -74,6 +74,13 @@ ART = {
 		}
 	}
 	
+	custom_portraits = {#add additional portraits when customizing species
+		trigger = { always = yes }
+		portraits = {
+			"bee"
+		}
+	}
+
 	graphical_culture = arthropoid_01
 	move_pop_sound_effect = "arthopoid_pops_move"
 
