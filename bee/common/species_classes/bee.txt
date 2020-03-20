@@ -1,6 +1,6 @@
 # Number of entries controlls amount to choose from in designer  I.E.   "mol1" "mol2" "mol3" "mol4"
 # graphical_culture is connected to the looks used for ships and cities, see "common/graphical_culture/"
-# Portraits here are one you can choose from in the character creater. For prescripted races they are grabbed straight from the .gfx file. 
+# Portraits here are one you can choose from in the character creater. For prescripted races they are grabbed straight from the .gfx file.
 # playable=(yes/no)/trigger, default is yes, if this species class can is playable
 # randomized=(yes/no)/trigger, default is yes, if this species class is randomized
 # custom_portraits
@@ -21,11 +21,11 @@ ART = {
 		"art7"
 		"art12"
 		"art6"
-		"art1"		
+		"art1"
 		"art13"
 		"art8"
-		"art3"		
-		"art5"		
+		"art3"
+		"art5"
 		"art9"
 		"art10"
 		"art11"
@@ -35,12 +35,12 @@ ART = {
 
 	custom_portraits = {#add additional portraits when customizing species
 		randomized = { host_has_dlc = "Leviathans Story Pack" }
-		playable = { local_has_dlc = "Leviathans Story Pack" }	
+		playable = { local_has_dlc = "Leviathans Story Pack" }
 		portraits = {
 			"art18"
 		}
-	}	
-	
+	}
+
 	custom_portraits = {#add additional portraits when customizing species
 		randomized = { host_has_dlc = "Arachnoid Portrait Pack" }
 		playable = { local_has_dlc = "Arachnoid Portrait Pack" }
@@ -55,15 +55,15 @@ ART = {
 			"art20"
 		}
 	}
-	
+
 	custom_portraits = {#add additional portraits when customizing species
-		randomized = { 
-			OR = { 
+		randomized = {
+			OR = {
 				host_has_dlc = "Creatures of the Void Portrait Pack"
 				host_has_dlc = "Anniversary Portraits"
 			}
 		}
-		playable = { 
+		playable = {
 			OR = {
 				local_has_dlc = "Creatures of the Void Portrait Pack"
 				local_has_dlc = "Anniversary Portraits"
@@ -71,13 +71,6 @@ ART = {
 		}
 		portraits = {
 			"art17"
-		}
-	}
-	
-	custom_portraits = {#add additional portraits when customizing species
-		trigger = { always = yes }
-		portraits = {
-			"bee"
 		}
 	}
 
