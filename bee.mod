@@ -6,4 +6,4 @@ tags={
 }
 picture="bee.png"
 remote_file_id="1689014104"
-supported_version="2.3.*"
+supported_version="2.6.*"
